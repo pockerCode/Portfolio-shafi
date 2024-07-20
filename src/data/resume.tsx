@@ -4,7 +4,7 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   name: "Shafi ",
   initials: "M",
-  url: "https://shafi-taupe.vercel.app/",
+  url: "https://advent0shafio.vercel.app/",
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/Banaswadi,+Bengaluru,+Karnataka/@13.0106957,77.6384052,15z/data=!3m1!4b1!4m6!3m5!1s0x3bae172a8816c8a7:0x12898ffb28776f32!8m2!3d13.0103761!4d77.6481944!16s%2Fm%2F0h_903m?entry=ttu",
   description:
@@ -192,7 +192,7 @@ export const DATA = {
     },
     {
       title: "E Commerce",
-      href: "https://automatic.chat",
+      href: "https://github.com/advent0shafi/Treknexus",
       dates: "April 2023 - March 2023",
       active: true,
       description:
