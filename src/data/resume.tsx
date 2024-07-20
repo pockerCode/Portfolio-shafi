@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/Banaswadi,+Bengaluru,+Karnataka/@13.0106957,77.6384052,15z/data=!3m1!4b1!4m6!3m5!1s0x3bae172a8816c8a7:0x12898ffb28776f32!8m2!3d13.0103761!4d77.6481944!16s%2Fm%2F0h_903m?entry=ttu",
   description:
-    "Full Stack Developer at PixelBird Digital. Passionate about building innovative solutions and helping others. Very active on Twitter",
+    "Web Developer at PixelBird Digital. Passionate about building innovative solutions and helping others. Very active on Linkdien",
   summary:
-    "At the start of 2023, I began my career as a full stack developer at PixelBird Digital in Bangalore. In the past, I pursued a double degree in computer science and business, interned at big tech companies in Silicon Valley, and competed in over 21 hackathons for fun. I also had the pleasure of being a part of the first ever in-person cohort of buildspace called buildspace sf1.",
+    "I am a Python developer, self-taught and passionate about coding and problem-solving. I prioritize writing clean and efficient code, constantly seeking oppor- tunities to learn and remain updated with the latest technologies.",
   avatarUrl: "/me.JPG",
   skills: [
     "React",
