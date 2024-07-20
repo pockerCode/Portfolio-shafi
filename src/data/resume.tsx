@@ -4,9 +4,9 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   name: "Shafi ",
   initials: "M",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://shafi-taupe.vercel.app/",
+  location: "Bangalore, India",
+  locationLink: "https://www.google.com/maps/place/Banaswadi,+Bengaluru,+Karnataka/@13.0106957,77.6384052,15z/data=!3m1!4b1!4m6!3m5!1s0x3bae172a8816c8a7:0x12898ffb28776f32!8m2!3d13.0103761!4d77.6481944!16s%2Fm%2F0h_903m?entry=ttu",
   description:
     "Full Stack Developer at PixelBird Digital. Passionate about building innovative solutions and helping others. Very active on Twitter",
   summary:
@@ -26,12 +26,12 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "#", icon: CodeIcon, label: "Projects" },
+    { href: "#projects", icon: CodeIcon, label: "Projects" },
     { href: "#", icon: PencilLine, label: "Notes" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "shafimsm19@gmail.com",
+    tel: "+91 9605112527",
     social: {
       GitHub: {
         name: "GitHub",
@@ -65,7 +65,7 @@ export const DATA = {
         url: "shafimsm19@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
