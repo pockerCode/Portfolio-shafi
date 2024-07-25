@@ -103,56 +103,56 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Chembosky",
-      href: "https://chembosky.com/",
-      dates: "Dec 2023 - Jan 2024",
-      active: true,
-      description:
-        "Worked on the development of Chembosky, utilizing Next.js for a modern, fast-loading frontend and Tailwind CSS for a responsive design. Implemented Strapi as the CMS with PostgreSQL as the database to manage content efficiently. Deployed the site on Digital Ocean, using PM2 and Nginx for optimal performance and reliability.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Strapi",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chembosky.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "chembosky.png",
-      video: "",
-    },
-    {
-      title: "Solace",
-      href: "https://solaceglobal.org/",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Worked on the development of SOLACE, utilizing Next.js for a modern, fast-loading frontend and Tailwind CSS for a responsive design. Implemented Strapi as the CMS with PostgreSQL as the database to manage content efficiently. Deployed the site on Digital Ocean, using PM2 and Nginx for optimal performance and reliability.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Strapi",
-        "TailwindCSS",
-        "Framer Motion",
-        "GSAP",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://solaceglobal.org/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "solace.png",
-      video: "",
-    },
+    // {
+    //   title: "Chembosky",
+    //   href: "https://chembosky.com/",
+    //   dates: "Dec 2023 - Jan 2024",
+    //   active: true,
+    //   description:
+    //     "Worked on the development of Chembosky, utilizing Next.js for a modern, fast-loading frontend and Tailwind CSS for a responsive design. Implemented Strapi as the CMS with PostgreSQL as the database to manage content efficiently. Deployed the site on Digital Ocean, using PM2 and Nginx for optimal performance and reliability.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Strapi",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://chembosky.com/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "chembosky.png",
+    //   video: "",
+    // },
+    // {
+    //   title: "Solace",
+    //   href: "https://solaceglobal.org/",
+    //   dates: "June 2023 - Present",
+    //   active: true,
+    //   description:
+    //     "Worked on the development of SOLACE, utilizing Next.js for a modern, fast-loading frontend and Tailwind CSS for a responsive design. Implemented Strapi as the CMS with PostgreSQL as the database to manage content efficiently. Deployed the site on Digital Ocean, using PM2 and Nginx for optimal performance and reliability.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Strapi",
+    //     "TailwindCSS",
+    //     "Framer Motion",
+    //     "GSAP",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://solaceglobal.org/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "solace.png",
+    //   video: "",
+    // },
     {
       title: "ZenithCare",
       href: "https://github.com/advent0shafi/Zenithcare-React-Frontend",
