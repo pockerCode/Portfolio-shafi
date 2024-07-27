@@ -38,7 +38,7 @@ export default function Page() {
                   className="max-w-[600px] md:text-sm"
                   delay={BLUR_FADE_DELAY}
                   text={
-                    "This project demonstrates the integration of Metas Llama 3.1, a state-of-the-art language model, with a Next.js application using the Vercel AI SDK and Groq as the model provider."
+                    "This project demonstrates the integration of Metas Llama 3.1, a state-of-the-art language model, with a Next.js application using the Vercel AI SDK and Groq as in the model provider."
                   }
                 />
               </div>
