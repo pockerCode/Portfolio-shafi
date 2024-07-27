@@ -176,8 +176,8 @@ export const DATA = {
            icon: <Icons.globe className="size-3" />,
        },
        ],
-      image: "chatfy.png",
-      video: "",
+      image: "",
+      video: "chatify.mp4",
     },
     {
       title: "ZenithCare",
