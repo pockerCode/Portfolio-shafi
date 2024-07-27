@@ -45,7 +45,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section id="about">
+        <section id="chatify">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-light">Chat Box</h2>
           </BlurFade>
