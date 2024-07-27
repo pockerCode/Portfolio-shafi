@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { CodeIcon, HomeIcon, NotebookIcon, PencilLine,BotMessageSquare } from "lucide-react";
 
 export const DATA = {
   name: "Shafi ",
@@ -27,7 +27,7 @@ export const DATA = {
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
     { href: "#projects", icon: CodeIcon, label: "Projects" },
-    { href: "#", icon: PencilLine, label: "Notes" },
+    { href: "/chat-bot-ai", icon: BotMessageSquare, label: "ChatBot" },
   ],
   contact: {
     email: "shafimsm19@gmail.com",
@@ -154,6 +154,32 @@ export const DATA = {
     //   video: "",
     // },
     {
+      title: "ChatFy",
+      href: "https://next-js-grok-l-lama.vercel.app",
+      dates: "July 27th 2024",
+      active: true,
+      description:
+        "This project demonstrates the integration of Meta's Llama 3.1, a state-of-the-art language model, with a Next.js application using the Vercel AI SDK and Groq as the model provider.",
+      technologies: [
+        "NextJs",
+        "TailwindCSS",
+        "Framer Motion",
+        "Grok",
+        "Llama 3.1",
+        'Magic Ui',
+
+      ],
+            links: [
+        {
+           type: "Website",
+           href: "https://next-js-grok-l-lama.vercel.app",
+           icon: <Icons.globe className="size-3" />,
+       },
+       ],
+      image: "chatfy.png",
+      video: "",
+    },
+    {
       title: "ZenithCare",
       href: "https://github.com/advent0shafi/Zenithcare-React-Frontend",
       dates: "April 2023 - September 2023",
@@ -188,7 +214,7 @@ export const DATA = {
         },
       ],
       image: "django-react.png",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "",
     },
     {
       title: "E Commerce",
@@ -216,7 +242,7 @@ export const DATA = {
       ],
       image: "treknesus.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
     {
       title: "Lenis Framer Gallery",
