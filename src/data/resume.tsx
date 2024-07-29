@@ -172,7 +172,7 @@ export const DATA = {
             links: [
         {
            type: "Website",
-           href: "https://next-js-grok-l-lama.vercel.app",
+           href: "https://chatify-ai.vercel.app/",
            icon: <Icons.globe className="size-3" />,
        },
        ],
