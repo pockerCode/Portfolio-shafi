@@ -63,47 +63,49 @@ export default function Page() {
                   onSubmit={handleSubmit}
                   className="flex items-center border-t border-gray-300 md:p-2  py-4 md:py-2 md:px-2"
                 >
-                  <Link href={"/chat-bot-ai/new"}>
-                    <div
-                      className={cn(
-                        "flex size-8 md:min-h-[58px] min-h-[40px]  min-w-[45px] md:min-w-[58px]  shrink-0 select-none items-center justify-center rounded-md border shadow",
-                        "bg-background"
-                      )}
+                 <div className="flex w-full items-center">
+            <div className="flex w-full flex-col gap-1.5 rounded-[26px] p-1.5 transition-colors bg-[#f4f4f4] dark:bg-[#1A1A1A]">
+              <div className="flex items-end gap-1.5 md:gap-2">
+                <div>
+                  <div className="flex flex-col">
+                   
+                  <Link href={'/chat-bot-ai/new'}>
+                    <button
+                      className="flex items-center justify-center h-8 w-8 rounded-full  focus-visible:outline-black border dark:text-white  dark:focus-visible:outline-white mb-1 ml-1.5"
+                      
                     >
-                      <IconPlus />
-                    </div>
-                  </Link>
+                     <IconPlus />
+                    </button>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex min-w-0 flex-1 flex-col">
                   <Textarea
                     ref={inputRef}
+                    id="prompt-textarea"
                     tabIndex={0}
                     onKeyDown={onKeyDown}
-                    placeholder="Send a message."
-                    className="md:min-h-[58px] min-h-[40px]  w-full resize-none  md:px-4 px-1 md:py-[1rem] py-1 focus-within:outline-none text-xs  sm:text-sm  bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] transform-gpu dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
+                    data-id="cfa4d3a1-2e12-4214-91a0-166009d43714"
+                    dir="auto"
                     autoFocus
-                    spellCheck={false}
-                    autoComplete="off"
-                    autoCorrect="on"
-                    name="message"
                     rows={1}
+                    placeholder="Message ChatFy"
                     value={input}
                     onChange={handleInputChange}
+                    className="m-0 resize-none border-0 bg-transparent px-0 text-token-text-primary min-h-[32px] focus:ring-0 focus-visible:ring-0 max-h-[25dvh] "
+                 
                   />
-                  <button
-                    type="submit"
-                    className="md:px-8 md:py-[1rem] md:rounded-r-lg md:block hidden   focus:outline-none bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] transform-gpu dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset] "
-                  >
-                    <p>Send</p>
-                  </button>
-
-                  <button
-                    type="submit"
-                    className={cn(
-                      "flex size-8 min-h-[40px]  min-w-[45px] md:hidden   shrink-0 select-none items-center justify-center rounded-md border shadow",
-                      "bg-background"
-                    )}
-                  >
-                    <IconShare />
-                  </button>
+                </div>
+                <button
+                type="submit"
+                  className="mb-1 me-1 flex h-8 w-8 items-center justify-center rounded-full bg-black text-white transition-colors hover:opacity-70 focus-visible:outline-none focus-visible:outline-black disabled:bg-[#D7D7D7] disabled:text-[#f4f4f4] disabled:hover:opacity-100 dark:bg-white dark:text-black dark:focus-visible:outline-white disabled:dark:bg-token-text-quaternary dark:disabled:text-token-main-surface-secondary"
+                
+                >
+                    < IconShare/>
+                </button>
+              </div>
+            </div>
+          </div>
                 </form>
               </div>
             </Card>
