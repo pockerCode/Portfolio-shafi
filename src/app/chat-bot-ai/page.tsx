@@ -63,7 +63,7 @@ export default function Page() {
                   onSubmit={handleSubmit}
                   className="flex items-center border-t border-gray-300 md:p-2  py-4 md:py-2 md:px-2"
                 >
-                  <Link href={"/new"}>
+                  <Link href={"/chat-bot-ai/new"}>
                     <div
                       className={cn(
                         "flex size-8 md:min-h-[58px] min-h-[40px]  min-w-[45px] md:min-w-[58px]  shrink-0 select-none items-center justify-center rounded-md border shadow",
