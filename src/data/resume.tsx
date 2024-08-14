@@ -160,7 +160,7 @@ export const DATA = {
     // },
     {
       title: "ChatFy",
-      href: "https://next-js-grok-l-lama.vercel.app",
+      href: "https://chatify-ai.vercel.app/",
       dates: "July 27th 2024",
       active: true,
       description:
