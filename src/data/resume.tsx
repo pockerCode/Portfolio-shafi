@@ -200,7 +200,7 @@ export const DATA = {
   ],
   links: [
     {
-      title: "Github",
+      type: "Source Frontend",
       icon: <Icons.github className="h-4 w-4" />,
       href: "https://github.com/advent0shafi/face-age-gender-recognition",
     },
