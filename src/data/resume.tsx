@@ -108,6 +108,32 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "ChatiFy",
+      href: "https://chatify-ai.vercel.app/",
+      dates: "July 27th 2024",
+      active: true,
+      description:
+        "This project demonstrates the integration of Meta's Llama 3.1, a state-of-the-art language model, with a Next.js application using the Vercel AI SDK and Groq as the model provider.",
+      technologies: [
+        "NextJs",
+        "TailwindCSS",
+        "Framer Motion",
+        "Grok",
+        "Llama 3.1",
+        'Magic Ui',
+
+      ],
+            links: [
+        {
+           type: "Website",
+           href: "https://chatify-ai.vercel.app/",
+           icon: <Icons.globe className="size-3" />,
+       },
+       ],
+      image: "",
+      video: "chatify.mp4",
+    },
     // {
     //   title: "Chembosky",
     //   href: "https://chembosky.com/",
@@ -159,30 +185,28 @@ export const DATA = {
     //   video: "",
     // },
     {
-      title: "ChatFy",
-      href: "https://chatify-ai.vercel.app/",
-      dates: "July 27th 2024",
+      title: "Face Age and Gender Recognition Using OpenCV",
+      href: "https://github.com/advent0shafi/face-age-gender-recognition",
+      dates: "Sept 12th 2024",
       active: true,
       description:
-        "This project demonstrates the integration of Meta's Llama 3.1, a state-of-the-art language model, with a Next.js application using the Vercel AI SDK and Groq as the model provider.",
+        "This project demonstrates real-time face detection along with age and gender prediction using OpenCV and pre-trained deep learning models. The webcam feed detects faces, draws bounding boxes around them, and annotates each face with the predicted age group and gender.",
       technologies: [
-        "NextJs",
-        "TailwindCSS",
-        "Framer Motion",
-        "Grok",
-        "Llama 3.1",
-        'Magic Ui',
-
-      ],
-            links: [
-        {
-           type: "Website",
-           href: "https://chatify-ai.vercel.app/",
-           icon: <Icons.globe className="size-3" />,
-       },
-       ],
-      image: "",
-      video: "chatify.mp4",
+    "Python",
+    "OpenCV",
+    "Haar Cascade Classifier",
+    "Deep Learning (DNN module of OpenCV)",
+    "Pre-trained Caffe Models"
+  ],
+  links: [
+    {
+      title: "Github",
+      icon: <Icons.github className="h-4 w-4" />,
+      href: "https://github.com/advent0shafi/face-age-gender-recognition",
+    },
+  ],
+      image: "faceapp.png",
+      video: "",
     },
     {
       title: "ZenithCare",
@@ -222,7 +246,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "E Commerce",
+      title: "TrekNexus E Commerce Application",
       href: "https://github.com/advent0shafi/Treknexus",
       dates: "April 2023 - March 2023",
       active: true,
