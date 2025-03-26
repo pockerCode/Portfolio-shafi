@@ -8,14 +8,15 @@ export const DATA = {
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/Banaswadi,+Bengaluru,+Karnataka/@13.0106957,77.6384052,15z/data=!3m1!4b1!4m6!3m5!1s0x3bae172a8816c8a7:0x12898ffb28776f32!8m2!3d13.0103761!4d77.6481944!16s%2Fm%2F0h_903m?entry=ttu",
   description:
-    "Web Developer at PixelBird Digital. Passionate about building innovative solutions and helping others. Very active on Linkdien",
+    "Digital craftsman & code architect at PixelBird Digital. Transforming ideas into elegant solutions while empowering the next generation of tech innovators.",
   summary:
-    "I am a Python developer, self-taught and passionate about coding and problem-solving. I prioritize writing clean and efficient code, constantly seeking oppor- tunities to learn and remain updated with the latest technologies.",
+    "Full-stack developer with expertise in Python and modern web technologies. I craft elegant, high-performance solutions through clean code architecture and innovative problem-solving. Committed to continuous learning and staying at the forefront of emerging tech trends to deliver exceptional digital experiences.",
   avatarUrl: "/me.JPG",
   skills: [
     "React",
     "Next.js",
     "Typescript",
+    "React Native",
     "Node.js",
     "Python",
     'Git',
@@ -33,6 +34,7 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
     { href: "#projects", icon: CodeIcon, label: "Projects" },
     { href: "/chat-bot-ai", icon: BotMessageSquare, label: "ChatBot" },
+
   ],
   contact: {
     email: "shafimsm19@gmail.com",
@@ -78,7 +80,7 @@ export const DATA = {
   work: [
     {
       company: "PixelBird",
-      href: "https://atomic.finance",
+      href: "https://pixelbird.digital/",
       badges: [],
       location: "OnSite",
       title: "Full Stack Engineer",
@@ -86,7 +88,7 @@ export const DATA = {
       start: "Nov 2023",
       end: "Present",
       description:
-        "Developed and optimized modern websites using Next.js and Django REST Framework. Created a robust, responsive design with TypeScript and Tailwind CSS. Dockerized microservices for seamless deployment and set up a production Kubernetes cluster. Architected a high-performance data pipeline using Next.js and Django REST Framework to enhance website functionality and scalability.",
+        "Led development of bulk messaging systems with API integrations for WhatsApp and Instagram. Designed scalable architecture for high-volume messaging needs. Built chatbot solutions with FastAPI backend for hotel bookings and customer support, increasing client bookings from 10% to 55% via social media. Optimized performance with efficient algorithms, resulting in 70% growth in bookings and customer service efficiency. Currently developing Meta-integrated business solutions for WhatsApp and Instagram to streamline communication and marketing.",
     },
   ],
   education: [
@@ -108,10 +110,39 @@ export const DATA = {
     },
   ],
   projects: [
+    //editify.mp4
+    {
+      title: "Editify",
+      href: "https://editify-gemini.vercel.app/",
+      dates: "July 24th 2025",
+      active: true,
+      description:
+        "Editify is an AI-powered image editor that leverages Google's Gemini 2.0 Flash Exp Image Generation technology. Built with Next.js and TailwindCSS, this tool allows users to transform images through natural language prompts, offering creative editing capabilities without requiring design expertise.",
+      technologies: [
+        "NextJs",
+        "TailwindCSS",
+        "Framer Motion",
+        "Gemini 2.0 Flash Exp Image Generation",
+       ],
+            links: [
+        {
+           type: "Website",
+           href: "https://editify-gemini.vercel.app/",
+           icon: <Icons.globe className="size-3" />,
+       },
+       {
+        type: "Source",
+        href: "https://github.com/advent0shafi/gemini-image-editor",
+        icon: <Icons.github className="size-3" />,
+       },
+       ],
+      image: "",
+      video: "editify.mp4",
+    },
     {
       title: "ChatiFy",
       href: "https://chatify-ai.vercel.app/",
-      dates: "July 27th 2024",
+      dates: "March 27th 2024",
       active: true,
       description:
         "This project demonstrates the integration of Meta's Llama 3.1, a state-of-the-art language model, with a Next.js application using the Vercel AI SDK and Groq as the model provider.",
@@ -328,7 +359,7 @@ export const DATA = {
         {
           title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/advent0shafi/next-framer-ui",
         },
       ],
     },
